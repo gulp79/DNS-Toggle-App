@@ -29,6 +29,9 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     
+    - name: Build with Gradle
+      run: ls -lhaR
+    
     #- name: Build Debug APK
     #  run: ./gradlew assembleDebug
     
