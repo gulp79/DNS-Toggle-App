@@ -27,7 +27,7 @@ jobs:
       run: chmod +x gradlew
       
     - name: get task for gradlew
-      run: gradle tasks
+      run: ./gradlew tasks
     
     - name: Build with Gradle
       run: ./gradlew build --warning-mode all
