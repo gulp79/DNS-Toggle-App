@@ -32,8 +32,8 @@ jobs:
     - name: Build with Gradle
       run: ls -lhaR
     
-    #- name: Build Debug APK
-    #  run: ./gradlew assembleDebug
+    - name: Build Debug APK
+      run: ./gradlew assembleDebug
     
     - name: Upload APK
       uses: actions/upload-pages-artifact@v3
