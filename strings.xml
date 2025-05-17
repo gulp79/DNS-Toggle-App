@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DNS Toggle</string>
+    <string name="dns_toggle_title">DNS Privato Toggle</string>
+    <string name="enable_dns">ON</string>
+    <string name="disable_dns">OFF</string>
+    <string name="status_enabled">Stato: DNS Privato ATTIVO</string>
+    <string name="status_disabled">Stato: DNS Privato DISATTIVATO</string>
+    <string name="status_checking">Stato: Verificando...</string>
+    <string name="info_text">Questa app richiede i permessi di sistema (WRITE_SECURE_SETTINGS) per funzionare. Su dispositivi non root è necessario concedere i permessi tramite ADB.</string>
+    <string name="open_dns_settings">Apri Impostazioni DNS</string>
+    <string name="permission_error">Permessi mancanti. L\'app necessita di permessi speciali.</string>
+    <string name="operation_failed">Operazione fallita</string>
+    <string name="operation_success">Operazione completata con successo</string>
+</resources>
